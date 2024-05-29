@@ -1,2 +1,2 @@
-# Arch_QTILE_Dotfiles
+# Arch_Dotiles
 My qTile config

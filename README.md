@@ -1,2 +1,2 @@
 # Arch_Dotiles
-My qTile config
+My Arch Config Files

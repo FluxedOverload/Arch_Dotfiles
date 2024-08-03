@@ -1,0 +1,226 @@
+# _____ ___  _____ ___       ____ ___  _   _ _____ ___ ____ 
+#|_   _/ _ \|  ___|_ _|     / ___/ _ \| \ | |  ___|_ _/ ___|
+#  | || | | | |_   | |_____| |  | | | |  \| | |_   | | |  _ 
+#  | || |_| |  _|  | |_____| |__| |_| | |\  |  _|  | | |_| |
+#  |_| \___/|_|   |___|     \____\___/|_| \_|_|   |___\____|
+#  - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+#    ______            __      
+#   / ____/___  ____  / /______
+#  / /_  / __ \/ __ \/ __/ ___/
+# / __/ / /_/ / / / / /_(__  ) 
+#/_/    \____/_/ /_/\__/____/  
+
+	font = "JetiBrainsMono Nerd Font"
+	font-size = 14
+	font-features = ""
+	font-variations = ""
+	hint-font = true
+
+# _____         _   
+#|_   _|____  _| |_ 
+#  | |/ _ \ \/ / __|
+#  | |  __/>  <| |_ 
+#  |_|\___/_/\_\\__|
+
+                  
+	text-color = #a9b1d6
+
+	# Prompt text theme
+	prompt-color = #7aa2f7
+	prompt-background = #00000000
+	prompt-background-padding = 0
+	prompt-background-corner-radius = 0
+
+	# Placeholder text theme
+	placeholder-color = #FFFFFFA8
+	placeholder-background = #00000000
+	placeholder-background-padding = 0
+	placeholder-background-corner-radius = 0
+
+	# Input text theme
+	input-color = #f7768e
+	input-background = #00000000
+	input-background-padding = 0
+	input-background-corner-radius = 0
+
+	# Default result text theme
+	# default-result-color = #FFFFFF
+	default-result-background = #00000000
+	default-result-background-padding = 0
+	default-result-background-corner-radius = 0
+
+	# Alternate (even-numbered) result text theme
+	#
+	# If unspecified, these all default to the corresponding
+	# default-result-* attribute.
+	#
+	# alternate-result-color = #FFFFFF
+	# alternate-result-background = #00000000
+	# alternate-result-background-padding = 0
+	# alternate-result-background-corner-radius = 0
+
+	# Selection text
+	selection-color = #7aa2f7
+	selection-background = #00000000
+	selection-background-padding = 0
+	selection-background-corner-radius = 10
+
+	# Matching portion of selection text
+	selection-match-color = #f7768e
+
+
+#  ____                          
+# / ___|   _ _ __ ___  ___  _ __ 
+#| |  | | | | '__/ __|/ _ \| '__|
+#| |__| |_| | |  \__ \ (_) | |   
+# \____\__,_|_|  |___/\___/|_| 	
+
+
+	# Supported values: bar, block, underscore
+	text-cursor-style = bar
+
+	# If unspecified, defaults to the same as input-color
+	# text-cursor-color = #FFFFFF
+
+	# Color of text behind the text cursor when text-cursor-style = block
+	# If unspecified, defaults to the same as background-color
+	# text-cursor-background = #000000
+
+	# Corner radius of the text cursor
+	text-cursor-corner-radius = 0
+
+	# text-cursor-style = underscore, or to 2 otherwise.
+	# text-cursor-thickness = 2
+
+
+# _____         _     _                         _   
+#|_   _|____  _| |_  | | __ _ _   _  ___  _   _| |_ 
+#  | |/ _ \ \/ / __| | |/ _` | | | |/ _ \| | | | __|
+#  | |  __/>  <| |_  | | (_| | |_| | (_) | |_| | |_ 
+#  |_|\___/_/\_\\__| |_|\__,_|\__, |\___/ \__,_|\__|
+#                             |___/                 
+
+	# Prompt to display.
+	prompt-text = "Applications: "
+
+	# Extra horizontal padding between prompt and input.
+	prompt-padding = 5
+
+	# Placeholder input text.
+	placeholder-text = ""
+
+	# Maximum number of results to display.
+	# If 0, tofi will draw as many results as it can fit in the window.
+	num-results = 0
+
+	# Spacing between results in pixels. Can be negative.
+	result-spacing = 12
+
+	# List results horizontally.
+	horizontal = false
+
+	# Minimum width of input in horizontal mode.
+	min-input-width = 0
+
+
+#__        ___           _               
+#\ \      / (_)_ __   __| | _____      __
+# \ \ /\ / /| | '_ \ / _` |/ _ \ \ /\ / /
+#  \ V  V / | | | | | (_| | (_) \ V  V / 
+#   \_/\_/  |_|_| |_|\__,_|\___/ \_/\_/  
+
+	# Width and height of the window. Can be pixels or a percentage.
+	width = 25%
+	height = 20%
+
+	# Window background color
+	background-color = #1a1b26F2
+ 
+	# Width of the border outlines in pixels.
+	outline-width = 1
+
+	# Border outline color
+	outline-color = #f7768e
+
+	# Width of the border in pixels.
+	border-width = 1
+
+	# Border color
+	border-color = #f7768e
+
+	# Radius of window corners in pixels.
+	corner-radius = 20
+
+	# Padding between borders and text. Can be pixels or a percentage.
+	padding-top = 8
+	padding-bottom = 8
+	padding-left = 8
+	padding-right = 8
+
+	# Whether to clip text drawing to be within the specified padding. This
+	# is mostly important for allowing text to be inset from the border,
+	# while still allowing text backgrounds to reach right to the edge.
+	clip-to-padding = true
+
+	# Whether to scale the window by the output's scale factor.
+	scale = true
+
+
+#__        ___           _                                   
+#\ \      / (_)_ __   __| | _____      __  _ __   ___  ___   
+# \ \ /\ / /| | '_ \ / _` |/ _ \ \ /\ / / | '_ \ / _ \/ __|  
+#  \ V  V / | | | | | (_| | (_) \ V  V /  | |_) | (_) \__ \_ 
+#   \_/\_/  |_|_| |_|\__,_|\___/ \_/\_/   | .__/ \___/|___(_)
+#                                         |_|          
+
+	# The name of the output to appear on. An empty string will use the
+	# default output chosen by the compositor.
+	# output ="DP-1"
+
+	# Location on screen to anchor the window to.
+	#
+	# Supported values: top-left, top, top-right, right, bottom-right,
+	# bottom, bottom-left, left, center.
+	anchor = center
+
+	# Set the size of the exclusive zone.
+	#
+	# A value of -1 means ignore exclusive zones completely.
+	# A value of 0 will move tofi out of the way of other windows' zones.
+	# A value greater than 0 will set that much space as an exclusive zone.
+	#
+	# Values greater than 0 are only meaningful when tofi is anchored to a
+	# single edge.
+	exclusive-zone = -1
+
+	# Window offset from edge of screen. Only has an effect when anchored
+	# to the relevant edge. Can be pixels or a percentage.
+	margin-top = 0
+	margin-bottom = 0
+	margin-left = 0
+	margin-right = 0
+
+
+# ____       _                 _                  
+#| __ )  ___| |__   __ ___   _(_) ___  _   _ _ __ 
+#|  _ \ / _ \ '_ \ / _` \ \ / / |/ _ \| | | | '__|
+#| |_) |  __/ | | | (_| |\ V /| | (_) | |_| | |   
+#|____/ \___|_| |_|\__,_| \_/ |_|\___/ \__,_|_|   
+
+	hide-cursor = true
+	text-cursor = true
+	history = true
+	matching-algorithm = normal
+	require-match = true
+	auto-accept-single = false
+	hide-input = false
+	hidden-character = "*"
+	physical-keybindings = true
+	print-index = false
+	drun-launch = true
+	late-keyboard-init = false
+	multi-instance = false
+	ascii-input = false
+

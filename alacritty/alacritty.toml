@@ -1,3 +1,8 @@
+
+[general]
+live_config_reload = true
+
+
 #    _    _        _    ____ ____  ___ _____ _______   _______ ___  __  __ _     
 #   / \  | |      / \  / ___|  _ \|_ _|_   _|_   _\ \ / /_   _/ _ \|  \/  | |    
 #  / _ \ | |     / _ \| |   | |_) || |  | |   | |  \ V /  | || | | | |\/| | |    
@@ -13,12 +18,9 @@
 #\____/\___/_/ /_/\___/_/   \__,_/_/    
 
 import = [
-  "~/.config/alacritty/tokyo_colors.toml",
+  "~/.config/alacritty/colors_everforest.toml",
   "~/.config/alacritty/fonts.toml",
 ] 
-
-live_config_reload = true
-
 
 # _       ___           __             
 #| |     / (_)___  ____/ /___ _      __
@@ -27,7 +29,7 @@ live_config_reload = true
 #|__/|__/_/_/ /_/\__,_/\____/|__/|__/  
 
 [window]
-padding = {x = 15, y = 15 }
+padding = {x = 8, y = 8 }
 dynamic_padding = true
 opacity = 0.95
 blur = true
@@ -67,4 +69,5 @@ style = "Beam"
 blink_interval = 750
 unfocused_hollow = true
 thickness = 0.15
+
    

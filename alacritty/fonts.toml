@@ -13,7 +13,7 @@
 #/_/  \____/_/ /_/\__/  
 
 [font]
-normal.family = "JetBrainsMono Nerd Font"
+normal.family = "Hack"
 
 size = 12.00
 offset = { x = 0, y = 0}
